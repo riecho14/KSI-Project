@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">EcoHero</string>
+    <string name="mulai">Mulai</string>
+    <string name="mulai_klasifikasi_sampahmu">Mulai Klasifikasi Sampahmu</string>
 </resources>
