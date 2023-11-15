@@ -4,13 +4,28 @@
     <string name="mulai_klasifikasi_sampahmu">Mulai Klasifikasi Sampahmu</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_dashboard">Scan</string>
+    <string name="title_notifications">Tentang</string>
     <string name="welcome">Selamat Datang</string>
     <string name="kenali_jenis_sampah">Kenali Jenis Sampah</string>
     <string name="jenis_jenis_sampah">Jenis - Jenis Sampah</string>
     <string name="nama_sampah">Nama Sampah</string>
     <string name="deskripsi">Deskripsi</string>
+    <string name="tentang_aplikasi">Tentang Aplikasi</string>
+    <string name="par1">Aplikasi Deteksi Jenis Sampah membantu pengguna membedakan antara sampah organik dan anorganik. Dengan teknologi pengenalan visual, aplikasi ini mengidentifikasi jenis sampah yang telah di foto dengan kamera. Informasi detil tentang setiap jenis sampah disediakan, termasuk tips pengolahan yang tepat.</string>
+    <string name="par2">Manfaat Aplikasi :\n
+        \u2022 \tMembedakan sampah organik dan anorganik \n\t\tdengan akurasi.\n
+        \u2022 \tMemberikan informasi tentang jenis sampah \n\t\tdan cara pengolahannya.\n
+        \u2022 \tMeningkatkan efisiensi dalam pemilahan \n\t\tsampah.\n
+        \u2022 \tMengurangi kesalahan dalam proses daur \n\t\tulang sampah.\n
+        \u2022 \tMendorong kesadaran lingkungan dan \n\t\tpengolahan sampah yang berkelanjutan.</string>
+    <string name="par3">Cara penggunaan: \n
+        \u2022 \tMembedakan sampah organik dan anorganik \n\t\tdengan akurasi. \n
+        \u2022 \tMemberikan informasi tentang jenis sampah \n\t\tdan cara pengolahannya. \n
+        \u2022 \tMeningkatkan efisiensi dalam pemilahan \n\t\tsampah. \n
+        \u2022 \tMengurangi kesalahan dalam proses daur \n\t\tulang sampah. \n
+        \u2022 \tMendorong kesadaran lingkungan dan \n\t\tpengolahan sampah yang berkelanjutan.</string>
+
 
     <string-array name="data_name">
         <item>Sampah Organik</item>
