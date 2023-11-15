@@ -6,4 +6,29 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="welcome">Selamat Datang</string>
+    <string name="kenali_jenis_sampah">Kenali Jenis Sampah</string>
+    <string name="jenis_jenis_sampah">Jenis - Jenis Sampah</string>
+    <string name="nama_sampah">Nama Sampah</string>
+    <string name="deskripsi">Deskripsi</string>
+
+    <string-array name="data_name">
+        <item>Sampah Organik</item>
+        <item>Sampah Anorganik</item>
+        <item>Sampah B3</item>
+    </string-array>
+
+
+    <string-array name="data_photo">
+        <item>https://waste4change.com/blog/wp-content/uploads/Composting-NYC-1024x756-1.jpg</item>
+        <item>https://sustaination.id/wp-content/uploads/2021/02/jasmin-sessler-5Wfttm2CjeI-unsplash.jpg</item>
+        <item>https://blogpictures.99.co/baterai-bekas.jpg</item>
+    </string-array>
+
+
+    <string-array name="data_desc">
+        <item>Lorem Ipsum Organik</item>
+        <item>Lorem Ipsum Anorganik</item>
+        <item>Lorem Ipsum B3</item>
+    </string-array>
 </resources>

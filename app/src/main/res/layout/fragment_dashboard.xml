@@ -4,19 +4,71 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.dashboard.DashboardFragment">
+    android:layout_margin="16dp"
+    android:id="@+id/scan_fragment">
+
 
     <TextView
-        android:id="@+id/text_dashboard"
+        android:id="@+id/textView3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Unggah \n sampah anda \n disini"
+        android:textSize="32sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/image_banner"
+        android:layout_width="wrap_content"
+        android:layout_height="210dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/preview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/photo_button"
+        style="@style/CustomButtonStyle"
+        android:layout_width="164dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:text="Camera"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_banner"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/gallery_button"
+        style="@style/CustomButtonStyle"
+        android:layout_width="164dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="4dp"
+        android:text="Galeri"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/photo_button"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/check_button"
+        android:layout_width="260dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/stroke_button"
+        android:backgroundTint="@color/black"
+        android:text="Cek Sekarang"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextContrastCheck" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
