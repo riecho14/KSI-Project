@@ -20,11 +20,10 @@
         \u2022 \tMengurangi kesalahan dalam proses daur \n\t\tulang sampah.\n
         \u2022 \tMendorong kesadaran lingkungan dan \n\t\tpengolahan sampah yang berkelanjutan.</string>
     <string name="par3">Cara penggunaan: \n
-        \u2022 \tMembedakan sampah organik dan anorganik \n\t\tdengan akurasi. \n
-        \u2022 \tMemberikan informasi tentang jenis sampah \n\t\tdan cara pengolahannya. \n
-        \u2022 \tMeningkatkan efisiensi dalam pemilahan \n\t\tsampah. \n
-        \u2022 \tMengurangi kesalahan dalam proses daur \n\t\tulang sampah. \n
-        \u2022 \tMendorong kesadaran lingkungan dan \n\t\tpengolahan sampah yang berkelanjutan.</string>
+        \u2022 \tPergi ke halaman "Scan". \n
+        \u2022 \tMasukkan foto sampah yang anda miliki \n\t\tdengan memilih foto dari kamera atau galeri. \n
+        \u2022 \tTekan tombol "Cek Sekarang". \n
+        \u2022 \tTunggu proses scan selesai dan klasifikasi \n\t\tsampah berhasil dilakukan. \n.</string>
     <string name="name">Name</string>
     <string name="description">Description</string>
     <string name="image">Image</string>
