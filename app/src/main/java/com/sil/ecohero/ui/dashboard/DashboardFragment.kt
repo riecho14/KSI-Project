@@ -64,7 +64,7 @@ class DashboardFragment : Fragment() {
         binding.checkButton.isEnabled = false
 
         binding.checkButton.setOnClickListener {
-            Toast.makeText(requireContext(), "blom bisaak kocak", Toast.LENGTH_SHORT).show()
+            navigateToResultFragment()
         }
 
         binding.photoButton.setOnClickListener{
@@ -84,15 +84,15 @@ class DashboardFragment : Fragment() {
         return binding.root
     }
 
-//    private fun navigateToResultFragment() {
-//        if (isImageSelected) {
-//            val intent = Intent(requireContext(), LoadingResult::class.java)
-//            intent.putExtra("imageUri", getFile?.path)
-//            startActivity(intent)
-//        } else {
-//            Toast.makeText(requireContext(), "Pilih gambar terlebih dahulu", Toast.LENGTH_SHORT).show()
-//        }
-//    }
+    private fun navigateToResultFragment() {
+        if (isImageSelected) {
+            val intent = Intent(requireContext(), LoadingResult::class.java)
+            intent.putExtra("imageUri", getFile?.path)
+            startActivity(intent)
+        } else {
+            Toast.makeText(requireContext(), "Pilih gambar terlebih dahulu", Toast.LENGTH_SHORT).show()
+        }
+    }
 
 
     private fun startTakePhoto() {
