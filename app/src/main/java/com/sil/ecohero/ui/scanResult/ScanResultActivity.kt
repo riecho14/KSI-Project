@@ -82,7 +82,7 @@ class ScanResultActivity : AppCompatActivity() {
         val acurationText = "Nilai Akurasi: " + confidence
 
         binding.nameReceived.text = resultText
-        binding.confidence.text = acurationText
+        
 
 
 

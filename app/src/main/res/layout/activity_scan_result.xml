@@ -36,23 +36,12 @@
                 android:text="@string/name"
                 android:textSize="24sp" />
 
-            <TextView
-                android:id="@+id/confidence"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/name_received"
-                android:layout_marginTop="8dp"
-                android:fontFamily="@font/bold"
-                android:text="Nilai Akurasi :"
-                android:textSize="12sp"
-                android:textColor="@color/black"
-                android:layout_marginStart="16dp" />
 
             <TextView
                 android:id="@+id/description"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/confidence"
+                android:layout_below="@id/name_received"
                 android:layout_marginTop="8dp"
                 android:text="@string/description"
                 android:textSize="14sp"
